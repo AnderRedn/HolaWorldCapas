@@ -6,17 +6,17 @@
 package helloworldcapas.view;
 
 /**
- *
+ * Creates and returns a view
  * @author ander
  */
 public class ViewFactory {
     
     /**
-     *Get a model implementation
+     * Get a view implementation
      * @return  the View implementation
      */
     
     public static View getView(){
-        return new SwingViewImplementation();
+        return new JavaFXViewImplementation();
     }
 }
